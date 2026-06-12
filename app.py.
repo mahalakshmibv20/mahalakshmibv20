@@ -1,0 +1,27 @@
+def karnataka_travel_guide():
+    print("Welcome to Karnataka Travel Guide Expert Chatbot")
+    
+    while True:
+        query = input("\nAsk a question (or type 'exit' to quit): ").lower()
+
+        if query == "exit":
+            print("Thank you for using Karnataka Travel Guide Expert!")
+            break
+
+        elif "mysore" in query:
+            print("Mysore is famous for Mysore Palace, Brindavan Gardens, and Dasara Festival.")
+
+        elif "hampi" in query:
+            print("Hampi is a UNESCO World Heritage Site known for its ancient ruins and temples.")
+
+        elif "coorg" in query:
+            print("Coorg is known for coffee plantations, waterfalls, and scenic hills.")
+
+        elif "best time" in query:
+            print("The best time to visit Karnataka is from October to March.")
+
+        else:
+            print("Please visit the chatbot link for detailed travel guidance:")
+            print("https://chatbot.getmindpal.com/karnataka-expert-travel-guide-ay1")
+
+karnataka_travel_guide()
